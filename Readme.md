@@ -7,9 +7,13 @@
 
     $ component install component/jpeg-size
 
-## API
+## Example
 
-   
+```js
+var size = require('jpeg-size');
+var s = size(buf);
+// => { width: 200, height: 400 }
+```
 
 ## License
 

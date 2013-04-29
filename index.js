@@ -29,6 +29,14 @@ function u16(buf, o) {
   return buf[o] << 8 | buf[o + 1];
 }
 
+/**
+ * Return dimensions from jpeg `buf`.
+ *
+ * @param {Buffer} buf
+ * @return {Object} or undefined
+ * @api public
+ */
+
 function size(buf) {
   var len = buf.length;
   var o = 0;
