@@ -11,5 +11,9 @@
     "scripts": {
       "jpeg-size/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/jpeg-size.git"
   }
 }
